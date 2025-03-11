@@ -1,13 +1,13 @@
 import React from 'react'
 
-const DateAndCVV = ({onChange , MMOnchange,YYOnchange }) => {
+const DateAndCVV = ({onChange , MmOnchange,YyOnchange }) => {
     return (
         <div className='dateContainer'>
             <div className='MMYYContainer'>
                 <span className='MMYYSpan'>Exp. Date (MM/YY)</span>
 
-                <input onChange={MMOnchange} maxLength={2} className='MMInput' type="text" placeholder='MM' />
-                <input onChange={YYOnchange} maxLength={2} className='YYInput' type="text" placeholder='YY' />
+                <input onChange={MmOnchange} maxLength={2} className='MMInput' type="text" placeholder='MM' />
+                <input onChange={YyOnchange} maxLength={2} className='YYInput' type="text" placeholder='YY' />
             </div>
 
             <div className='CVCContainer'>
