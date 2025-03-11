@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kumbh+Sans:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Overpass:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    width: 385px;
+    height: 900px;
+    background: url(./components/assets/backgroundImage.svg)no-repeat;
+
+}
+
+.cardsContainer {
+    width: 343px;
+    height: 251px;
+    margin-left: 16px;
+    padding-top: 32px;
+
+}
+
+.formContainer {
+    width: 327px;
+    height: 328px;
+    margin-top: 100px;
+    margin-left: 27px;
+
+
+}
+
+.backSideCardContainer {
+    width: 286px;
+    height: 157px;
+    margin-left: 53px;
+    display: flex;
+}
+
+.forntSideCardContainer {
+    width: 286px;
+    height: 157px;
+    margin-top: -66px;
+    position: relative;
+
+}
+
+.backSideCardImg {
+    width: 285px;
+    height: 156.2080535888672px;
+}
+
+.frontSideCardImg {
+    width: 285px;
+    height: 156.2080535888672px;
+}
+
+.backSideCardLine {
+    position: absolute;
+    width: 230.9753875732422px;
+    height: 29.7391300201416px;
+    margin-top: 65px;
+    margin-left: 30px;
+
+}
+
+.backSideCardBlackline {
+    position: absolute;
+    width: 286px;
+    height: 34.60408020019531px;
+    margin-top: 17px;
+
+}
+
+.backSideCardLineContainer {
+    position: absolute;
+
+
+}
+
+.backSideCardCvvCode {
+    margin-top: 75px;
+    margin-left: 230px;
+    position: absolute;
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 11.48px;
+    letter-spacing: 1.29px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.frontSideCardOval {
+    position: absolute;
+    margin-left: -262px;
+    margin-top: 18px;
+}
+
+.frontSideCardSmallOval {
+    position: absolute;
+    margin-top: 26.25px;
+    margin-left: -220px;
+}
+
+.frontSideCardCvvCode {
+    position: absolute;
+    margin-left: -265px;
+    margin-top: 85px;
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22.97px;
+    letter-spacing: 2.2px;
+    color: #FFFFFF;
+}
+
+.nameDateContainetr {
+    width: 245.10728454589844px;
+    height: 12px;
+    justify-content: space-between;
+    display: flex;
+    margin-top: -37px;
+    margin-left: 20px;
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 11.48px;
+    letter-spacing: 1.29px;
+    color: #FFFFFF;
+}
+
+.CardholderNameContainer {
+    width: 327px;
+
+}
+
+.CardholderNameSpan,
+.CardNumberSpan {
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15.31px;
+    letter-spacing: 2px;
+    color: #21092F;
+
+}
+
+.CardholderNameInput,
+.CardNumberInput {
+    width: 327px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #DFDEE1;
+    margin-top: 7px;
+
+}
+
+.CardholderNameInput::placeholder {
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22.97px;
+    letter-spacing: 0px;
+    padding-left: 20px;
+    color: #bebdc2;
+}
+
+.CardNumberContainer {
+    width: 327px;
+    margin-top: 15px;
+}
+
+.CardNumberInput::placeholder {
+    color: #bebdc2;
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22.97px;
+    letter-spacing: 0px;
+    padding-left: 20px;
+}
+
+.dateContainer {
+    width: 327px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.MMYYContainer,
+.CVContainer {
+    width: 152px;
+    height: 69px;
+
+}
+
+.MMYYSpan {
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15.31px;
+    letter-spacing: 2px;
+
+}
+
+.MMInput,
+.YYInput {
+    width: 72px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #DFDEE0;
+    margin-top: 7px;
+}
+
+.YYInput {
+    margin-left: 7px;
+}
+
+.MMInput,
+.YYInput::placeholder {
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22.97px;
+    letter-spacing: 0px;
+    padding-left: 15px;
+    color: #bebdc2;
+}
+
+.MMInput::placeholder {
+    color: #bebdc2;
+}
+
+.CVCInput {
+    width: 164px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #DFDEE0;
+    margin-top: 10px;
+}
+
+.CVCContainer {
+    width: 164px;
+    height: 69px;
+    margin-left: 10px;
+}
+
+.CVCSpan {
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15.31px;
+    letter-spacing: 2px;
+    color: #21092F;
+}
+
+.CVCInput::placeholder {
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22.97px;
+    letter-spacing: 0px;
+    color: #bebdc2;
+    padding-left: 20px;
+}
+
+.ButtonConainer {
+    width: 327px;
+    height: 53px;
+    margin-top: 40px;
+}
+
+.ConfirmButton {
+    width: 327px;
+    height: 53px;
+    background-color: #21092F;
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22.97px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border-style: none;
+    margin-top: 30px
+}
+
+.ContinueButton {
+    width: 327px;
+    height: 53px;
+    background-color: #21092F;
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22.97px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border-style: none;
+    margin-top: -100px;
+    margin-left: 20px;
+}
+
+
+.thanksConainer {
+    width: 327px;
+    height: 291px;
+    width: 327;
+    margin-top: 80px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+
+.thanksSpan {
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 35.73px;
+    letter-spacing: 3.42px;
+    margin-top: 40px;
+    margin-top: 30px;
+    color: #21092F;
+}
+
+.thankstitleContainer {
+    margin-top: 30px;
+}
+
+.thanksP {
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22.97px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #8F8694;
+    margin-top: 20px;
+}
+
+.scanCode {
+    display: none;
+}
+
+@media(width > 1200px) {
+
+    .mainContainer {
+        height: 1000px;
+        background: url(./components/assets/secoundBackgrounsImg.svg) no-repeat;
+        margin-top: 250px;
+        margin-left: 600px;
+    }
+
+
+    .cardsContainer {
+        width: 541px;
+        height: 527px;
+        margin-top: 187px;
+        margin-left: 164px;
+        position: absolute;
+    }
+
+    .backSideCardContainer {
+        width: 447px;
+        height: 245px;
+        margin-top: 250px;
+        margin-left: 95px;
+
+    }
+
+    .backSideCardImg {
+        width: 447px;
+        height: 245px;
+    }
+
+    .forntSideCardContainer {
+        width: 447px;
+        height: 245px;
+        margin-top: -525px;
+    }
+
+    .frontSideCardImg {
+        width: 447px;
+        height: 245px;
+    }
+
+    .frontSideCardOval {
+        width: 46.956520080566406px;
+        height: 47px;
+        margin-top: 26px;
+        margin-left: -420px;
+    }
+
+    .frontSideCardSmallOval {
+        width: 21.130434036254883px;
+        height: 21.149999618530273px;
+        margin-top: 40px;
+        margin-left: -360px;
+    }
+
+    .frontSideCardCvvCode {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 35.73px;
+        letter-spacing: 3.42px;
+        width: 400px;
+        height: 36px;
+        margin-left: -410px;
+        margin-top: 130px;
+    }
+
+    .nameDateContainetr {
+        width: 383.14154052734375px;
+        height: 18px;
+
+    }
+
+    .frontSideCardName {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17.86px;
+        letter-spacing: 2px;
+    }
+
+    .frontSideDateContainer {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17.86px;
+        letter-spacing: 2px;
+        text-align: right;
+    }
+
+    .backSideCardLine {
+        width: 361px;
+        height: 38px;
+        margin-top: 95px;
+
+    }
+
+    .backSideCardCvvCode {
+        margin-top: 105px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17.86px;
+        letter-spacing: 2px;
+        width: 32px;
+        height: 18px;
+        margin-left: 345px;
+    }
+
+    .formContainer {
+        width: 381px;
+        height: 352px;
+        margin-top: 275px;
+        margin-left: 832px;
+        position: absolute;
+    }
+
+    .CardholderNameInput {
+        width: 381px;
+        height: 45px;
+    }
+
+    .CardNumberInput {
+        width: 381px;
+        height: 45px;
+    }
+
+    .CVCInput {
+        width: 218px;
+        height: 45px;
+    }
+
+    .ConfirmButton {
+        width: 381px;
+        height: 53px;
+    }
+
+    .backSideCardBlackline {
+        width: 447px;
+        height: 54px;
+    }
+
+    .scanCode {
+        width: 186px;
+        height: 26px;
+        margin-top: 180px;
+        margin-left: -320px;
+        border-radius: 4px;
+        display: block;
+    }
+
+    .fullThanksContainer   {
+        margin-left: 900px;
+        margin-top: 180px;
+        position: absolute;
+        width: 381px;
+        height: 291px;
+    }
+}
