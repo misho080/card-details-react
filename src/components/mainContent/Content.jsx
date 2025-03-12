@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import BackCard from '../cards/backCard'
+import BackCard from '../cards/BackCard'
 import DateAndCVV from '../form/DateAndCVV'
 import FrontCard from '../cards/FrontCard'
 import CardName from '../form/CardName'
