@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import BackCard from '../cards/backCard'
-import DateAndCVV from '../form/dateAndCVV'
+import DateAndCVV from '../form/DateAndCVV'
 import FrontCard from '../cards/FrontCard'
 import CardName from '../form/CardName'
 import CardNumber from '../form/CardNumber'
@@ -15,7 +15,6 @@ const Content = () => {
     const [name, setName] = useState("")
     const [number, setNumber] = useState("")
     const [confirm, setConfirm] = useState(false)
-
 
 
     return (
