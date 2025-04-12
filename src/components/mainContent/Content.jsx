@@ -44,8 +44,8 @@ const Content = () => {
 
                     <DateAndCVV
                         onChange={(e) => setCVC(e.target.value)}
-                        MMOnchange={(e) => setmonth(e.target.value)}
-                        YYOnchange={(e) => setYear(e.target.value)}
+                        MmOnchange={(e) => setmonth(e.target.value)}
+                        YyOnchange={(e) => setYear(e.target.value)}
                     />
                     <Button className="ConfirmButton" onclick={() => setConfirm(true)}>Confirm</Button>
 
