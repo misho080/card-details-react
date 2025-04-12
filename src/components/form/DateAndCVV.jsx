@@ -5,9 +5,8 @@ const DateAndCVV = ({onChange , MmOnchange,YyOnchange }) => {
         <div className='dateContainer'>
             <div className='MMYYContainer'>
                 <span className='MMYYSpan'>Exp. Date (MM/YY)</span>
-
-                <input onChange={MmOnchange} maxLength={2} className='MMInput' type="text" placeholder='MM' />
-                <input onChange={YyOnchange} maxLength={2} className='YYInput' type="text" placeholder='YY' />
+                <input  onChange={MmOnchange} maxLength={2} className='MMInput' type="" placeholder='MM' />
+                <input onChange={YyOnchange} maxLength={2} className='YYInput' type="" placeholder='YY' />
             </div>
 
             <div className='CVCContainer'>

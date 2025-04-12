@@ -132,7 +132,6 @@
 
 .CardholderNameContainer {
     width: 327px;
-
 }
 
 .CardholderNameSpan,
@@ -153,6 +152,13 @@
     border-radius: 8px;
     border: 1px solid #DFDEE1;
     margin-top: 7px;
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22.97px;
+    letter-spacing: 0px;
+    padding-left: 25px;
+    color: grey;
 
 }
 
@@ -191,7 +197,6 @@
 .CVContainer {
     width: 152px;
     height: 69px;
-
 }
 
 .MMYYSpan {
@@ -200,8 +205,8 @@
     font-size: 12px;
     line-height: 15.31px;
     letter-spacing: 2px;
-
 }
+
 
 .MMInput,
 .YYInput {
@@ -214,6 +219,13 @@
 
 .YYInput {
     margin-left: 7px;
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22.97px;
+    letter-spacing: 0px;
+    padding-left: 10px;
+    color: grey;
 }
 
 .MMInput,
@@ -237,6 +249,13 @@
     border-radius: 8px;
     border: 1px solid #DFDEE0;
     margin-top: 10px;
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22.97px;
+    letter-spacing: 0px;
+    padding-left: 35px;
+    color: grey;
 }
 
 .CVCContainer {
@@ -306,8 +325,6 @@
     width: 327px;
     height: 291px;
     width: 327;
-    margin-top: 80px;
-    margin-left: 20px;
     text-align: center;
 }
 
@@ -345,18 +362,19 @@
 @media(width > 1200px) {
 
     .mainContainer {
-        height: 1000px;
+        height: 100vh;
+        width: 600px;
         background: url(./components/assets/secoundBackgrounsImg.svg) no-repeat;
-        margin-top: 250px;
-        margin-left: 600px;
+        margin-top: 0px;
+        margin-left: 0px;
     }
 
 
     .cardsContainer {
         width: 541px;
         height: 527px;
-        margin-top: 187px;
-        margin-left: 164px;
+        margin-top: 87px;
+        margin-left: 200px;
         position: absolute;
     }
 
@@ -451,8 +469,8 @@
     .formContainer {
         width: 381px;
         height: 352px;
-        margin-top: 275px;
-        margin-left: 832px;
+        margin-top: 175px;
+        margin-left: 890px;
         position: absolute;
     }
 
@@ -490,7 +508,7 @@
         display: block;
     }
 
-    .fullThanksContainer   {
+    .fullThanksContainer {
         margin-left: 900px;
         margin-top: 180px;
         position: absolute;
